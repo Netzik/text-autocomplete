@@ -19,3 +19,16 @@
     - Кастомная **LSTM** 
     - **DistilGPT2** (для сравнения)
 - **Метрики качества:** ROUGE-1, ROUGE-2, ROUGE-L
+
+
+
+# Создать виртуальное окружение (рекомендуется)
+python -m venv venv
+source venv/bin/activate  # для Linux/Mac
+# venv\Scripts\activate   # для Windows
+
+# Установить зависимости
+pip install -r requirements.txt
+
+# Для GPU версии PyTorch (если нужно):
+# pip install torch==2.0.1+cu118 --extra-index-url https://download.pytorch.org/whl/cu118
