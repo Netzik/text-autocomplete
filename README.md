@@ -24,7 +24,6 @@
 
 <small>
 
-*Команды для установки:*
 
 ```bash
 # Создать виртуальное окружение (рекомендуется)
@@ -37,4 +36,3 @@ pip install -r requirements.txt
 
 # Для GPU версии PyTorch (если нужно):
 # pip install torch==2.0.1+cu118 --extra-index-url https://download.pytorch.org/whl/cu118
-</small>
