@@ -1,0 +1,6 @@
+torch
+pandas
+requests
+transformers
+rouge-score
+tqdm
